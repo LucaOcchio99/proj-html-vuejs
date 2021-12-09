@@ -3,6 +3,7 @@
     <Contact />
     <Header />
     <Hero />
+    <TheNetwork />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Contact from '@/components/Contact.vue';
 import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
+import TheNetwork from '@/components/TheNetwork.vue';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     Contact,
     Header,
     Hero,
+    TheNetwork,
   }
 }
 </script>
@@ -24,13 +27,12 @@ export default {
 <style lang="scss">
 * {
   padding: 0;
-  border: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 section {
-  padding-left: 16rem;
-  padding-right: 16rem;
+  padding: 1rem 16rem 1rem;
 }
 
 a {
