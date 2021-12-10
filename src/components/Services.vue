@@ -14,6 +14,7 @@
       </div>  
     
     </div>
+    <div></div>
   </section>
 </template>
 
@@ -24,5 +25,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+.text_button {
+    display: flex;
+    justify-content: space-between;
+  
+  button {
+     padding-left: 1rem;
+     padding-right: 1rem;
+  }
+}
 </style>

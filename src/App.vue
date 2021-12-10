@@ -5,6 +5,7 @@
     <Hero />
     <TheNetwork />
     <Services />
+    <ServicesCard /> 
   </div>
 </template>
 
@@ -14,6 +15,8 @@ import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 import TheNetwork from '@/components/TheNetwork.vue';
 import Services from '@/components/Services.vue';
+import ServicesCard from '@/components/ServicesCard.vue';
+
 
 export default {
   name: 'App',
@@ -23,6 +26,7 @@ export default {
     Hero,
     TheNetwork,
     Services,
+    ServicesCard,
   }
 }
 </script>
