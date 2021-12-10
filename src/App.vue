@@ -4,6 +4,7 @@
     <Header />
     <Hero />
     <TheNetwork />
+    <Services />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Contact from '@/components/Contact.vue';
 import Header from '@/components/Header.vue';
 import Hero from '@/components/Hero.vue';
 import TheNetwork from '@/components/TheNetwork.vue';
+import Services from '@/components/Services.vue';
 
 export default {
   name: 'App',
@@ -20,6 +22,7 @@ export default {
     Header,
     Hero,
     TheNetwork,
+    Services,
   }
 }
 </script>

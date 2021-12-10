@@ -11,22 +11,26 @@
     
     <div class="right">     
        <div class="top">
-          <div> 
+          <div class="first"> 
              <h4> <i class="fas fa-medal"></i> Tradition</h4>
              <p>Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>    
           </div>
-          <div>
+          
+          <div class="second">
               <h4> <i class="fas fa-lock"></i> Security</h4>
               <p>Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>
           </div>   
         </div>
 
         <div class="bottom">
-           <div>  <h4> <i class="far fa-sticky-note"></i> Certificate</h4>
-             <p>Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p> </div>
-           <div>
-               <h4> <i class="fas fa-graduation-cap"></i> Expertise</h4>
-             <p>Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>   
+           <div class="first">  
+             <h4> <i class="far fa-sticky-note"></i> Certificate</h4>
+             <p>Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p> 
+             </div>
+           
+            <div class="second">
+              <h4> <i class="fas fa-graduation-cap"></i> Expertise</h4>
+              <p>Lorem ipsum dolor sit amet <br> consectetur adipiscing elit.</p>   
             </div>        
         </div>    
     </div>
@@ -37,17 +41,30 @@
 <script>
 export default {
   name: 'TheNetwork',
-
 }
 </script>
 
 <style scoped lang="scss">
 section {
     display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
  .top,
  .bottom {
      display: flex;
  }
+
+ .top .first:first-child,
+  .bottom .first:first-child{
+   margin-right: 2rem;
+ }
+
+.bottom {
+  margin-top: 2rem;
+}
 </style>
