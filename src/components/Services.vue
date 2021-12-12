@@ -25,6 +25,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+section {
+  padding-top: 6rem;
+}
+
 .text_button {
     display: flex;
     justify-content: space-between;

@@ -5,7 +5,9 @@
     <Hero />
     <TheNetwork />
     <Services />
-    <ServicesCard /> 
+    <ServicesCard />
+    <Footer /> 
+    <FooterTwo />
   </div>
 </template>
 
@@ -16,7 +18,8 @@ import Hero from '@/components/Hero.vue';
 import TheNetwork from '@/components/TheNetwork.vue';
 import Services from '@/components/Services.vue';
 import ServicesCard from '@/components/ServicesCard.vue';
-
+import Footer from '@/components/Footer.vue';
+import FooterTwo from '@/components/FooterTwo.vue';
 
 export default {
   name: 'App',
@@ -27,6 +30,8 @@ export default {
     TheNetwork,
     Services,
     ServicesCard,
+    Footer,
+    FooterTwo,
   }
 }
 </script>

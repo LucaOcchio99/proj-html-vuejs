@@ -6,7 +6,7 @@
         </div>
 
         <div class="right">
-             <span><i class="fas fa-phone-alt"></i> +1(305) 1234-5678</span>
+             <span><i class="fas fa-phone"></i> +1(305) 1234-5678</span>
              <span><i class="fas fa-envelope"></i> hello@example.com</span>
              <span><i class="fab fa-facebook-f"></i></span>
              <span><i class="fab fa-twitter"></i></span>      
