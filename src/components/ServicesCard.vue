@@ -3,7 +3,9 @@
       
        <div v-for="(service, index) in services" :key="`serv-${index}`">
          
-          <Card :titolo="service.titolo" :testo="service.testo"/>
+          <Card :titolo="service.titolo" 
+                 :testo="service.testo"
+                   :url="service.url" />
        </div>
 
   </section>
@@ -20,26 +22,32 @@ data() {
    return {
       services: [
          {
+            url: 'fas fa-sitemap' ,
             titolo: 'Audit  Assurance',
             testo: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
          },
          {
+             url:   'fas fa-briefcase' ,
             titolo: 'Financial Advisory',
             testo: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
          },
          {
+             url:   'far fa-chart-bar' ,
             titolo: 'Analytics and M&A',
             testo: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
          },
          {
+             url:   'fas fa-plane' ,
             titolo: 'Middle Marketing',
             testo: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
          },
          {
+             url:  'fas fa-globe-europe' ,
             titolo: 'Legal Consulting',
             testo: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
          },
          {
+             url: 'fas fa-box' ,
             titolo: 'Regulator Risk',
             testo: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
          },

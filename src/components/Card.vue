@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="icone">
-             <i class="fas fa-desktop"></i>
+            <i :class="`${url}`"></i>
              <i class="fas fa-arrow-right"></i>
           </div>
           <div>
@@ -15,6 +15,7 @@
 export default {
 name: 'Card',
 props: {
+    url: String,
     titolo: String,
     testo: String
 }
