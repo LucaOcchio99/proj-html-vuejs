@@ -30,17 +30,14 @@ export default {
 section {
    background: lightcoral;
 }
-
 .center {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 ul {
   display: flex;
   align-items: center;
-
   li {
     padding-left: 1rem;
   }
@@ -51,9 +48,7 @@ ul {
      border-radius: 1rem;
      cursor: pointer;
    }
-
 }
-
 img {
   height: 50px;
 }

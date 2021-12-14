@@ -26,7 +26,6 @@ props: {
         border: 1px solid black;
         width: 300px;
         padding: 3rem;
-
         margin-top: 2rem;
     }
 </style>

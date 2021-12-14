@@ -6,6 +6,8 @@
     <TheNetwork />
     <Services />
     <ServicesCard />
+     <Process />
+    <ProcessList />
     <Footer /> 
     <FooterTwo />
   </div>
@@ -20,6 +22,8 @@ import Services from '@/components/Services.vue';
 import ServicesCard from '@/components/ServicesCard.vue';
 import Footer from '@/components/Footer.vue';
 import FooterTwo from '@/components/FooterTwo.vue';
+import Process from '@/components/Process.vue';
+import ProcessList from '@/components/ProcessList.vue';
 
 export default {
   name: 'App',
@@ -32,6 +36,8 @@ export default {
     ServicesCard,
     Footer,
     FooterTwo,
+    Process,
+    ProcessList,
   }
 }
 </script>

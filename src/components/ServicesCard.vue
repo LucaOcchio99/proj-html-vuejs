@@ -11,7 +11,6 @@
 
 <script>
 import Card from '@/components/Card.vue';
-
 export default {
 name: 'ServicesCard',
 components: {
@@ -44,7 +43,6 @@ data() {
             titolo: 'Regulator Risk',
             testo: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
          },
-
       ]
    }
 }

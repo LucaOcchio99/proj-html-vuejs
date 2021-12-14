@@ -49,21 +49,17 @@ section {
     display: flex;
     justify-content: space-between;
     background-color: burlywood;
-
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
-
  .top,
  .bottom {
      display: flex;
  }
-
  .top .first:first-child,
   .bottom .first:first-child{
    margin-right: 2rem;
  }
-
 .bottom {
   margin-top: 2rem;
 }

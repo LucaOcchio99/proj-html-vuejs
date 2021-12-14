@@ -30,7 +30,6 @@ export default {
      justify-content: space-between;
      align-items: center;
  }
-
  span {
      padding-left: 2rem;
      

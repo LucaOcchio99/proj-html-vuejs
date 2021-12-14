@@ -28,7 +28,6 @@ export default {
 section {
   padding-top: 6rem;
 }
-
 .text_button {
     display: flex;
     justify-content: space-between;
