@@ -73,16 +73,16 @@ export default {
       color: white;
       padding-top: 3rem;
       padding-bottom: 3rem;
-      
+
       .first {
           width: 225px; 
           padding: 2rem;
           button {
               padding: 10px;
-              border: none;
+              border: 1px solid #048383;
               border-radius: 1rem;
               cursor: pointer;
-              background: #22918e;
+              background: transparent;
               color: white;
 
               margin-top: 6px;

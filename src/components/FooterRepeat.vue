@@ -1,12 +1,12 @@
 <template>
  <div>
      <h2>{{titolo}}</h2>
-     <p> <i class="fas fa-chevron-right"></i> <a href="">{{link_sei}} </a></p>
-     <p> <i class="fas fa-chevron-right"></i> <a href="">{{link_uno}}</a> </p>
-     <p> <i class="fas fa-chevron-right"></i> <a href="">{{link_due}}</a> </p>
-     <p> <i class="fas fa-chevron-right"></i> <a href="">{{link_tre}}</a> </p>
-     <p> <i class="fas fa-chevron-right"></i> <a href="">{{link_quattro}}</a> </p>
-     <p> <i class="fas fa-chevron-right"></i> <a href="">{{link_cinque}}</a> </p>
+     <p> <i class="fas fa-chevron-right"></i> <a href="" style="color: white">{{link_sei}} </a></p>
+     <p> <i class="fas fa-chevron-right"></i> <a href="" style="color: white">{{link_uno}}</a> </p>
+     <p> <i class="fas fa-chevron-right"></i> <a href="" style="color: white">{{link_due}}</a> </p>
+     <p> <i class="fas fa-chevron-right"></i> <a href="" style="color: white">{{link_tre}}</a> </p>
+     <p> <i class="fas fa-chevron-right"></i> <a href="" style="color: white">{{link_quattro}}</a> </p>
+     <p> <i class="fas fa-chevron-right"></i> <a href="" style="color: white">{{link_cinque}}</a> </p>
  </div>
 </template>
 

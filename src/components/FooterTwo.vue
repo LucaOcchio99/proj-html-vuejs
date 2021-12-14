@@ -1,7 +1,7 @@
 <template>
   <section>
     <h5>Enjoy the low price. We are tracking any intention of priacy.</h5>
-    <p>2020 NEXGEN is Proudly Powerd by Codings</p>
+    <p>2020 NEXGEN is Proudly Powerd by <span style="color: #048383"> Codings </span></p>
   </section>
 </template>
 
