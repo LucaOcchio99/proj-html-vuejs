@@ -1,8 +1,8 @@
 <template>
   <section>
     <div class="text">
-        <h5>OUR BUSINESS AREAS</h5>
-        <h1>Excellence in Services</h1>
+        <h5 style="color: #50828c">OUR BUSINESS AREAS</h5>
+        <h1>Excellence in <span style="color: #50828c">Services</span> </h1>
      
       <div class="text_button">
         <p>
@@ -44,4 +44,12 @@ section {
      color: white;
   }
 }
+
+.text h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  font-size: 2rem;
+}
+
 </style>

@@ -3,8 +3,10 @@
     <div class="content"> 
       <div> 
          <h5>FUSION &amp; ACQUISITIONS</h5>
+        <div class="titolo" style="color: #50828c">
          <h1>Insurance</h1>
          <h1>Consulting</h1>
+        </div> 
       </div>
       <div class="top">
          <input type="text" placeholder="Name">
@@ -41,6 +43,8 @@ section {
 input {
  border: none;
  margin-top: 6px;
+
+ padding: 4px;
 }
 .top input:first-child,
 .bottom input:first-child {
@@ -67,6 +71,13 @@ input {
     color: #22918e;
     border-color: #22918e;
     border-radius: 1rem;
+}
+
+.titolo {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  font-size: 2rem;
 }
 
 </style>
