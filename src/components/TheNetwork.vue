@@ -48,7 +48,8 @@ export default {
 section {
     display: flex;
     justify-content: space-between;
-    background-color: burlywood;
+    background-color: #1c2224;
+    color: white;
     padding-top: 6rem;
     padding-bottom: 6rem;
 }

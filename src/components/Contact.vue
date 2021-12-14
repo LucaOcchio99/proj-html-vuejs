@@ -24,11 +24,13 @@ export default {
 
 <style scoped lang="scss">
  section {
-     background: lightblue;
+     background: #048383;
      
      display: flex;
      justify-content: space-between;
      align-items: center;
+
+     color: white;
  }
  span {
      padding-left: 2rem;

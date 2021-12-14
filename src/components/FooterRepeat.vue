@@ -29,10 +29,12 @@ props: {
 <style scoped lang="scss">
  div {
           width: 225px;
-          border: 1px solid black;
- 
           padding: 2rem;
-          button {
+          background: rgba(0, 0, 0, 0.527);
+          border-radius: 1rem;
+
+
+         button {
               margin-top: 1rem;
           }
             

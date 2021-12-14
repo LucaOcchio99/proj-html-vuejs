@@ -69,16 +69,28 @@ export default {
   section {
       display: flex;
       justify-content: space-between;
-      background: rgb(214, 205, 193);
+      background: rgba(0, 0, 0, 0.877);
+      color: white;
       padding-top: 3rem;
       padding-bottom: 3rem;
+      
       .first {
-          width: 225px;
-          border: 1px solid black;
- 
+          width: 225px; 
           padding: 2rem;
           button {
-              margin-top: 1rem;
+              padding: 10px;
+              border: none;
+              border-radius: 1rem;
+              cursor: pointer;
+              background: #22918e;
+              color: white;
+
+              margin-top: 6px;
+          }
+
+          p {
+            font-size: 13px;
+            margin-bottom: 6px;
           }
             
           i {
@@ -89,6 +101,7 @@ export default {
           }
           img {
               height: 30px;
+              margin-bottom: 1rem;
           }
       }
   }

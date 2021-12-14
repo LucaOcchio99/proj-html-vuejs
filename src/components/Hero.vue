@@ -15,8 +15,8 @@
           <input type="text" placeholder="More Info">
       </div>
 
-      <button>GET IN TOUCH</button>
-      <button>READ MORE</button>
+      <button class="one">GET IN TOUCH</button>
+      <button class="two">READ MORE</button>
     </div> 
   </section>
 </template>
@@ -29,7 +29,7 @@ export default {
 
 <style scoped lang="scss">
 section {
-    background: lightgrey;
+    background: #e8ecea;
     background-image: url(../assets/bg-6.jpg); 
     background-size: contain;
     background-repeat: no-repeat;
@@ -46,8 +46,27 @@ input {
 .bottom input:first-child {
     margin-right: 1rem;
 }
-button {
+.one {
     margin-top: 1rem;
     margin-right: 1rem;
+
+    padding: 1rem;
+    border: none;
+
+    color: white;
+    background: #22918e;
+    border-radius: 1rem;
 }
+
+.two {
+    margin-top: 1rem;
+    margin-right: 1rem;
+
+    padding: 1rem;
+
+    color: #22918e;
+    border-color: #22918e;
+    border-radius: 1rem;
+}
+
 </style>

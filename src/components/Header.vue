@@ -28,7 +28,7 @@ export default {
 
 <style scoped lang="scss">
 section {
-   background: lightcoral;
+   background: #e8ecea;
 }
 .center {
   display: flex;
@@ -47,6 +47,9 @@ ul {
      border: none;
      border-radius: 1rem;
      cursor: pointer;
+
+     background: #22918e;
+     color: white;
    }
 }
 img {

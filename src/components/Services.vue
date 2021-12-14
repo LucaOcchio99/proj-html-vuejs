@@ -27,6 +27,7 @@ export default {
 <style scoped lang="scss">
 section {
   padding-top: 6rem;
+  background: #a5a09d;
 }
 .text_button {
     display: flex;
@@ -34,7 +35,13 @@ section {
   
   button {
      padding-left: 1rem;
-     padding-right: 1rem;
+     padding-right: 1rem; padding: 1rem;
+     border: none;
+     border-radius: 1rem;
+     cursor: pointer;
+
+     background: #22918e;
+     color: white;
   }
 }
 </style>

@@ -55,5 +55,7 @@ section {
    display: flex;
    justify-content: space-between;
    flex-wrap: wrap;
+   background: #a5a09d;
+
 }
 </style>

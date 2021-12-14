@@ -23,9 +23,24 @@ props: {
 
 <style scoped lang='scss'>
 .card {
-        border: 1px solid black;
+        border: none;
+        border-radius: 1rem;
         width: 300px;
         padding: 3rem;
         margin-top: 2rem;
+
+        background: white;
+
+        .icone {
+          display: flex;
+          justify-content: space-between;
+
+          padding-bottom: 1rem;
+          font-size: 22px;
+        }
+    }
+    
+    h2 {
+      padding-bottom: 1rem;
     }
 </style>

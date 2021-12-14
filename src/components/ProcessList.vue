@@ -38,13 +38,11 @@ name: 'ProcessList',
 section {
     display: flex;
     justify-content: space-between;
-
-    background-color: lightgreen;
+    padding-bottom: 4rem;
 
     .card p,
     .card h3 {
         text-align: center;
-        
     }
 }
 </style>

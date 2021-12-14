@@ -12,6 +12,9 @@ name: 'Process',
 }
 </script>
 
-<style scoped lang="scsss">
-
+<style scoped lang="scss">
+section {
+  padding-top: 4rem;
+  text-align: center;
+}
 </style>

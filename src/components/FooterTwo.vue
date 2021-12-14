@@ -17,5 +17,7 @@ name: 'FooterTwo',
      justify-content: space-between;
      padding-top: 2rem;
      padding-bottom: 2rem;
+     color: white;
+     background: black;
  }
 </style>
